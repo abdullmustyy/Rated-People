@@ -4,8 +4,8 @@ export default function HeroForm({ job, chooseJob }) {
   function showJobTypes(jobNeeded) {
     for (let i = 0; i < jobTypeData.length; i++) {
       if (jobTypeData[i].jobNeeded === jobNeeded) {
-        return jobTypeData[i].jobTypeOptions.map((option) => (
-          <option className="font-bold text-gray" value={option}>
+        return jobTypeData[i].jobTypeOptions.map((option, i) => (
+          <option key={i} className="font-bold text-gray" value={option}>
             {option}
           </option>
         ));
@@ -14,7 +14,7 @@ export default function HeroForm({ job, chooseJob }) {
   }
 
   return (
-    <section className="bg-brown w-[80%] text-white p-6 rounded-lg">
+    <section className="bg-brown sm:w-[80%] text-white p-6 rounded-lg">
       <div className="mb-4">
         <h2 className="font-extrabold text-lg">
           Post your job for free and available tradespeople will contact you to
@@ -73,7 +73,7 @@ export default function HeroForm({ job, chooseJob }) {
               {showJobTypes(job.jobNeeded)}
             </select>
           </div>
-          <div className="flex justify-end">
+          <div className="flex sm:justify-end justify-center">
             <button className="font-bold text-base ml-2 py-2 px-8 bg-neon rounded-lg hover:bg-[#72a50d]">
               CONTINUE
             </button>

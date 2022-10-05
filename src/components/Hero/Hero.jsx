@@ -17,18 +17,18 @@ export default function Hero() {
   );
 
   return (
-    <main className="py-8 bg-heroBg relative">
+    <main className="py-8 sm:px-0 px-4 bg-heroBg relative">
       <div className="container m-auto">
         <div>
-          <h1 className="font-extrabold text-gray text-[2.6rem]">
+          <h1 className="font-extrabold text-gray text-[2.6rem] lg:text-start text-center">
             Find a tradesperson with Rated People
           </h1>
         </div>
-        <div className="flex justify-between my-8">
-          <div className="w-full">
+        <div className="flex lg:flex-row flex-col justify-between my-8">
+          <div className="flex lg:justify-start justify-center w-full">
             <HeroForm job={job} chooseJob={chooseJob} />
           </div>
-          <div className="w-full">
+          <div className="lg:w-full lg:block hidden">
             <h2 className="font-medium text-gray text-[1.6rem] break-words">
               Every trade you might need, with 88,000+ 5{" "}
               <span className="text-[#fbbf24]">★</span> ratings in the last
