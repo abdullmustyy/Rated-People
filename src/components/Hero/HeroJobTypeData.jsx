@@ -1,0 +1,66 @@
+export const jobTypeData = [
+  {
+    jobNeeded: "Bathroom fitter",
+    jobTypeOptions: [
+      "Bath Resurfacing",
+      "Bathroom Design",
+      "Bathroom Installation",
+      "Bathroom Repair",
+      "Bathroom Tiling",
+      "Complete Bathroom Refurbishment",
+      "Wet Room Installation",
+    ],
+  },
+  {
+    jobNeeded: "Blacksmith / Metal worker",
+    jobTypeOptions: [
+      "Decorative Ironmongery and Metalwork",
+      "Metal Kitchen Worktops",
+      "Metal Staircases",
+      "Security Fencing",
+      "Security Gates & Bollard",
+      "Security Grill",
+      "Wooden / Metal / Wire Fences",
+      "Zinc / Metal Roof",
+    ],
+  },
+  {
+    jobNeeded: "Bricklayer",
+    jobTypeOptions: [
+      "Chimney Building / Repair",
+      "Garden Wall",
+      "Pizza Oven",
+      "Pointing / Repointing",
+      "Stonework / Stone Cladding",
+    ],
+  },
+  {
+    jobNeeded: "Builder",
+    jobTypeOptions: [
+      "Cavity Wall Insulation",
+      "Cellar & Basement Conversion",
+      "Chimney Building / Repair",
+      "Cladding",
+      "Conservatory",
+      "Disability Access Installation",
+      "Garage Conversion",
+      "Garden Office / Studio Construction",
+      "Groundwork / Foundations",
+      "Home Improvements",
+      "House Extension",
+      "Loft Conversion",
+    ],
+  },
+  {
+    jobNeeded: "CCTV / Satellites / Alarms",
+    jobTypeOptions: [
+      "Aerial Installation",
+      "Aerial & Satellite Dish Installation",
+      "Burglar, Security & Intruder Alarm Installation",
+      "CCTV Installation",
+      "Digital Home Network",
+      "Fire Alarm Installation",
+      "Sound & Audio Visual Installation",
+    ],
+  },
+];
